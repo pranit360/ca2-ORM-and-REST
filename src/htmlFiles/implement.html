@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="new.css">
+    <script LANGUAGE="javascript" type="text/javascript" 
+    src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.0.js"></script>
+        <script language="javascript" src="ref.js"></script>    
+    </head>
+    <body>
+        
+        <div align="center"><h4><p id="text">CA2-Kaloyan,Madalina,Valentina & Pranit-ORM and REST</p></h4></div>
+        <div align="center">
+            <table><tr><td>
+                        <p id="text">The GUI implements the following:</p>
+            <ol>
+                <li id="label"> Show all Persons</li>
+               <li id="label"> Show a single Person(by selecting from list of all persons)</li>
+               <li id="label"> Add a Person</li>
+               <li id="label"> Delete a Person</li>
+               <li id="label"> Add a Role</li>
+            </ol></td></tr></table>
+        </div>
+            
+        
+        
+<div align="center" >
+<table border="10" id="table"><tr><td>
+            <p id="label">List of all persons</p>
+<select id="persons" size="2" style="min-width: 150px;height: 200px;">
+        </select>
+            <br>
+<button id="delete">Delete Person</button>
+        </td>
+<td width="300">
+
+<p id="label">ID</p><input type="text" disabled="disabled" id="id">
+<p id="label">First name</p><input type="text" disabled="disabled" id="fname"><br>
+<p id="label">Last name</p><input type="text" disabled="disabled" id="lname"><br>
+<p id="label">Phone nr.:</p><input type="text" disabled="disabled" id="phone"><br>
+<p id="label">E-mail</p><input type="text" disabled="disabled" id="email"><br>
+<br>
+<button id="btn_add">Add person</button> 
+<button id="btn_save">Save person</button>
+
+<button id="btn_cancel">Cancel</button>
+
+<br>
+</td>
+<td><p id="label">Degree</p><input type="text" disabled="disabled" id="degree"><br>
+<p id="label">Date employed</p><input type="text" disabled="disabled" id="date"><br>
+<p id="label">Semester</p><input type="text" disabled="disabled" id="semester"><br>
+<select id="mySelect">
+  <option id="teacher" value="Teacher">Teacher</option>
+  <option id="student" value="student">Student</option>
+  <option id="assistant" value="assistant">Assistant teacher</option>
+  </select>
+<button id="btn_role">Add role</button><br><button id="btn_srole">Save role</button>
+</td>
+</tr></table></div>
+    </body>
+</html>
