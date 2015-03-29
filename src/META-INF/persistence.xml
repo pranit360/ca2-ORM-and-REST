@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
-  <!--persistence-unit name="CA2PUJ" transaction-type="RESOURCE_LOCAL">
-    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <class>model.Person</class>
-    <class>model.Teacher</class>
-    <class>model.RoleSchool</class>
-    <class>model.Student</class>
-    <class>model.AssistantTeacher</class>
-    <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/ca2db"/>
-      <property name="javax.persistence.jdbc.user" value="vala"/>
-      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
-      <property name="javax.persistence.jdbc.password" value="vala"/>
-      <property name="javax.persistence.schema-generation.database.action" value="create"/>
-    </properties>
-  </persistence-unit-->
-  <persistence-unit name="CA2PUJ" transaction-type="RESOURCE_LOCAL">
+  <persistence-unit name="CA2_ForFronterPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>model.AssistantTeacher</class>
     <class>model.Person</class>
     <class>model.RoleSchool</class>
     <class>model.Student</class>
     <class>model.Teacher</class>
-    <validation-mode>NONE</validation-mode>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@datdb.cphbusiness.dk:1521:dat"/>
-      <property name="javax.persistence.jdbc.user" value="cphcd77"/>
-      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
       <property name="javax.persistence.jdbc.password" value="cphcd77"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.user" value="cphcd77"/>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
     </properties>
   </persistence-unit>

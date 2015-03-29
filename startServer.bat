@@ -1,1 +1,1 @@
-java -cp CA2.jar webServer.WebServer 9999 100.85.110.71
+java -cp CA2_ForFronter.jar webServer.WebServer 9999 10.119.226.16

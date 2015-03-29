@@ -24,7 +24,7 @@ import model.RoleSchool;
  */
 public class SchoolFacade implements ISchoolFacade {
 
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("CA2PUJ");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("CA2_ForFronterPU");
     EntityManager em = emf.createEntityManager();
     //Map<Integer, Person> persons = new HashMap();
     private final Gson gson = new Gson();

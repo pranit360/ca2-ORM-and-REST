@@ -35,7 +35,7 @@ import model.RoleSchool;
 public class WebServer {
 
     static int port = 9999;
-    static String ip = "127.0.0.1";
+    static String ip = "10.119.226.16";
     static String publicFolder = "src/htmlFiles/";
     static SchoolFacade facade;
     private static final boolean DEVELOPMENT_MODE = true;
